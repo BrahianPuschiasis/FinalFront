@@ -83,6 +83,10 @@ body::after {
   z-index: -1000;
 }
 
+.logo {
+  margin-top: 1rem;
+}
+
 main {
   margin-top: 8rem;
 }
@@ -118,4 +122,17 @@ h1 {
   margin-top: -4rem;
 }
 
+h2 {
+  font-size: 28px;
+  color: var(--color-azul);
+  margin: 0;
+}
 
+.article2_dif {
+  margin-left: 6rem;
+  margin-top: 5rem;
+}
+
+.p_margin {
+  margin-bottom: 6rem;
+}
