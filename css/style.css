@@ -129,7 +129,7 @@ h2 {
 }
 
 .article2_dif {
-  margin-left: 11.5rem;
+  margin-left: 14rem;
   margin-top: 5rem;
 }
 
@@ -163,10 +163,15 @@ h2 {
 .custom-counter li::before {
   content: "0" counter(step-counter);
   margin-right: 20px;
-  font-size: 80%;
+  font-size: 130%;
   background-color: var(--color-naranja);
   color: white;
   font-weight: bold;
   padding: 3px 16px;
-  border-radius: 11px;
+  border-radius: 45%;
+}
+
+.lista_dif {
+  margin-left: 2rem;
+  margin-top: 0.1rem;
 }
