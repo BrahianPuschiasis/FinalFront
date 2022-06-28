@@ -9,14 +9,13 @@ body {
   margin: 0;
 }
 
-
 :root {
-    --color-naranja: rgb(242, 95, 58);
-    --color-azul: rgb(35, 44, 81);
-    --color-gris: rgb(143, 148, 167);
-    --color-azul-oscuro: rgb(29, 30, 37);
-    --color-gris-light: rgb(255, 239, 234);
-    --color-blanquito: rgb(249, 249, 249);
+  --color-naranja: rgb(242, 95, 58);
+  --color-azul: rgb(35, 44, 81);
+  --color-gris: rgb(143, 148, 167);
+  --color-azul-oscuro: rgb(29, 30, 37);
+  --color-gris-light: rgb(255, 239, 234);
+  --color-blanquito: rgb(249, 249, 249);
 }
 
 header {
@@ -34,18 +33,50 @@ header nav ul {
   list-style-type: none;
   gap: 60px;
   color: var(--color-azul);
+  text-decoration: none;
 }
 
-.btt__start {
-    background-color: var(--color-naranja);
-    border: 0;
-    border-radius: 30px;
-    color: var(--color-gris-light);
-    height: 40px;
-    width: 130px;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+header nav ul a {
+  color: var(--color-azul);
+  text-decoration: none;
 }
 
-.btt__start:hover {
-    cursor: pointer;
+.button-header {
+  background-color: var(--color-naranja);
+  border: 0;
+  border-radius: 30px;
+  color: var(--color-gris-light);
+  height: 40px;
+  width: 130px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.button-header:hover {
+  cursor: pointer;
+}
+
+body::before {
+  background-image: url(../img/bg-tablet-pattern.svg);
+  content: "";
+  position: absolute;
+  top: -150px;
+  right: 0px;
+  width: 38rem;
+  height: 43rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -1000;
+}
+
+body::after {
+  background-image: url(../img/bg-tablet-pattern.svg);
+  content: "";
+  position: absolute;
+  left: -250px;
+  bottom: -500px;
+  width: 38rem;
+  height: 43rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -1000;
 }
