@@ -137,11 +137,11 @@ h2 {
   margin-bottom: 6rem;
 }
 
-h3 {
-  font-size: 15px;
+.spans_article2 {
+  font-size: 20px;
   color: var(--color-azul);
   margin: 0;
-  width: 700;
+  width: 900;
 }
 
 .articles_top2 {
@@ -155,15 +155,13 @@ h3 {
   padding: 0;
   list-style-type: none;
   counter-reset: step-counter;
-
-  
 }
 .custom-counter li {
   counter-increment: step-counter;
   margin-bottom: 5px;
 }
 .custom-counter li::before {
-  content: "0"counter(step-counter);
+  content: "0" counter(step-counter);
   margin-right: 20px;
   font-size: 80%;
   background-color: var(--color-naranja);
