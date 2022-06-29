@@ -135,6 +135,7 @@ h2 {
 
 .p_margin {
   margin-bottom: 6rem;
+  width:500;
 }
 
 .spans_article2 {
@@ -178,5 +179,10 @@ h2 {
 
 .parrafos_margen{
 margin-left:5rem;
+color: var(--color-gris);
 
+}
+
+.centrarh2{
+  text-align: center;
 }
