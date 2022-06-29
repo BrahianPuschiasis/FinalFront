@@ -293,10 +293,10 @@ footer {
   flex-direction: column;
 }
 
-.footer__datos {
+.footer_color {
   background-color: var(--color-azul-oscuro);
 }
-.comunicaciones {
+.sociales {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -304,7 +304,7 @@ footer {
   padding: 1rem 3rem 2rem 3rem;
   flex-wrap: wrap;
 }
-.comunicaciones .footer__inputs {
+.sociales .footer__inputs {
   width: 33%;
   min-width: 290px;
 }
@@ -327,7 +327,7 @@ footer {
   justify-content: space-between;
 }
 
-.footer__list .noClass {
+.footer_columnas .noClass {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -344,18 +344,18 @@ footer {
   color: var(--color-naranja);
 }
 
-.footer__inputs.updates {
+.footer__inputs.email {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
 }
-.footer__inputs.updates label:nth-child(1) input {
+.footer__inputs.email label:nth-child(1) input {
   height: 30px;
   margin: 0.5rem;
   border: 0;
   border-radius: 30px;
 }
-.footer__inputs.updates label .go {
+.footer__inputs.email label .go {
   background-color: var(--color-naranja);
   border: 0;
   border-radius: 30px;
@@ -368,7 +368,7 @@ label .go:hover {
   cursor: pointer;
 }
 
-.derechos {
+.Copyright {
   text-align: end;
   box-sizing: border-box;
   padding-right: 5rem;
@@ -415,11 +415,11 @@ i:hover {
   transform: translateY(4px);
 }
 
-.footer__inputs.updates label .go:hover {
+.footer__inputs.email label .go:hover {
   background-color: var(--color-gris);
 }
 
-.footer__inputs.updates label .go:active {
+.footer__inputs.email label .go:active {
   background-color: var(--color-azul-oscuro);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
