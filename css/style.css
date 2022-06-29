@@ -326,11 +326,13 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 .footer__list .noClass {
   list-style: none;
   display: flex;
   flex-direction: column;
 }
+
 .noClass li a {
   text-decoration: none;
   color: var(--color-blanquito);
@@ -338,10 +340,14 @@ footer {
 .noClass li {
   margin-top: 10px;
 }
+.noClass li a:hover {
+  color: var(--color-naranja);
+}
 
 .footer__inputs.updates {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 .footer__inputs.updates label:nth-child(1) input {
   height: 30px;
@@ -371,7 +377,18 @@ label .go:hover {
   color: var(--color-gris);
 }
 
-
 input:required {
   box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
+}
+
+.margin_log2 {
+  margin-top: 3rem;
+}
+
+i {
+  color: var(--color-blanquito);
+}
+
+i:hover {
+  color: var(--color-naranja);
 }
