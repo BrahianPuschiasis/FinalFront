@@ -186,3 +186,60 @@ color: var(--color-gris);
 .centrarh2{
   text-align: center;
 }
+
+
+
+/*carrusel*/
+.carrusel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+
+.carrusel article:nth-child(2) {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.carrusel__card {
+  width: 33%;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-gris-light);
+  box-sizing: border-box;
+  padding: 30px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+label .exponente img {
+  width: 100px;
+  margin-top: -80%;
+}
+
+label .exp__name {
+  color: var(--color-azul);
+  font-weight: 700;
+}
+
+.carrusel__card div:nth-child(3) {
+  text-align: center;
+  color: var(--color-gris);
+}
+
+.carrusel article:nth-child(3) {
+  text-align: center;
+}
+/*carrusel*/
+#carruselNav input[type=radio]{
+  display: none;
+
+} 
