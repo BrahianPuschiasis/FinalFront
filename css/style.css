@@ -8,7 +8,6 @@
 body {
   padding: 0;
   margin: 0;
-
 }
 
 :root {
@@ -392,4 +391,36 @@ i {
 
 i:hover {
   color: var(--color-naranja);
+}
+
+/*intento de botones animados*/
+
+.button-header:hover {
+  background-color: var(--color-gris);
+}
+
+.button-header:active {
+  background-color: var(--color-azul-oscuro);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-naranjita:hover {
+  background-color: var(--color-gris);
+}
+
+.button-naranjita:active {
+  background-color: var(--color-azul-oscuro);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.footer__inputs.updates label .go:hover {
+  background-color: var(--color-gris);
+}
+
+.footer__inputs.updates label .go:active {
+  background-color: var(--color-azul-oscuro);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
