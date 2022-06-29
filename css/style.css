@@ -424,3 +424,91 @@ i:hover {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+/*viwport mobile*/
+@media (max-width:769px){
+  body::after{
+      display: none;
+  }
+  /*header*/
+  header{
+      justify-content: space-between;
+  }
+  .button-naranjita{
+      display: none;
+  }
+  .nav__label{
+     display: initial;
+     cursor: pointer;
+  }
+  .nav__menu{
+      content: '';
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      position: fixed;
+      right: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      background-color: var(--color-primario-2);
+      box-sizing: border-box;
+      padding: 10px;
+      border-radius: 10px;
+      transition: .5s;
+      z-index: 1500;
+}
+.nav__menu a{
+  color: var(--color-neutro-4);
+}
+.nav__input:checked + .nav__menu{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/*about us*/
+.home article:nth-child(1){
+  margin-bottom: 5rem;
+}
+
+
+  /*carrusel*/
+.carrusel{
+  position: relative;
+}
+.carrusel article:nth-child(2){
+  position: relative;
+  height: 256px;
+  margin-bottom: 2rem;
+}
+#carruselNav{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto auto auto;
+  width: min-content;
+  height: auto;
+}
+#carruselNav input[type=radio]{
+  margin: 3rem 0;
+  display: initial;
+}
+.carrusel__card{
+  display: none;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+#radio1:checked ~ #tarjetaCarrusel1-1,
+#radio2:checked ~ #tarjetaCarrusel1-2,
+#radio3:checked ~ #tarjetaCarrusel1-3{
+  display: initial;
+}
+
+/*footer*/
+.last__start{
+  flex-direction: column;
+  padding: 1 2rem;
+  text-align: center;
+}
+}
