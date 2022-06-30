@@ -16,7 +16,7 @@ body {
   --color-naranja: rgb(242, 95, 58);
 }
 
-.ocultar{
+.ocultar {
   display: none;
 }
 
@@ -116,7 +116,6 @@ h1 {
   display: flex;
   max-width: 340px;
   min-width: 312px;
-
 }
 .bring_everyone {
   display: flex;
@@ -450,32 +449,77 @@ i:hover {
     display: none;
   }
 
- .ocultar{
-  display: flex;
-  margin-top: 1rem;
- }
+  .ocultar {
+    display: flex;
+    margin-top: 1rem;
+  }
 
-.top_articles img{
-width:300px;
+  .top_articles img {
+    width: 300px;
+  }
 
-}
+  .top_articles {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
- .top_articles{
-  flex-direction: column-reverse;
-  align-items: center;
- }
+  .color_gris {
+    text-align: center;
+  }
 
-.color_gris{
-  text-align: center;
-}
+  h1 {
+    font-size: 35px;
+    text-align: center;
+  }
 
-h1{
-font-size: 35px;
-text-align: center;
-}
+  .articles_top button {
+    margin-left: 5rem;
+  }
 
- .articles_top button{
-margin-left: 5rem;
-}
+  .article_mobile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    text-align: center;
+  }
 
+  .article_mobile2 {
+    display: flex;
+    text-align: left;
+    margin-left: -2rem;
+    font-size: 13px;
+  }
+  h3 {
+    font-size: 15px;
+    background-color: rgba(233, 91, 8, 0.4);
+  }
+
+  .naranjita_arriba h2 {
+    margin-left: -2rem;
+    text-align: center;
+    font-size: 35px;
+    margin-top: -3rem;
+    width: 16rem;
+  }
+
+  .button-naranjita {
+    margin-left: 5rem;
+  }
+
+  footer section {
+    flex-direction: row;
+  }
+
+  .Copyright {
+    text-align: center;
+    margin-left: 4rem;
+  }
+
+  article .inputs__icon {
+    margin-top: 13rem;
+  }
+
+  i {
+    font-size: 30px;
+  }
 }
