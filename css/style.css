@@ -116,12 +116,14 @@ h1 {
   display: flex;
   max-width: 340px;
   min-width: 312px;
+
 }
 .bring_everyone {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 280px;
+  z-index: 1;
 }
 
 .top_articles {
@@ -131,6 +133,7 @@ h1 {
   width: 80%;
   margin: auto;
   margin-top: 2rem;
+  z-index: 1;
 }
 
 .top_articles2 {
@@ -451,4 +454,28 @@ i:hover {
   display: flex;
   margin-top: 1rem;
  }
+
+.top_articles img{
+width:300px;
+
+}
+
+ .top_articles{
+  flex-direction: column-reverse;
+  align-items: center;
+ }
+
+.color_gris{
+  text-align: center;
+}
+
+h1{
+font-size: 35px;
+text-align: center;
+}
+
+ .articles_top button{
+margin-left: 5rem;
+}
+
 }
