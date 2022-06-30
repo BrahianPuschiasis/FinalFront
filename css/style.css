@@ -513,6 +513,7 @@ i:hover {
   .Copyright {
     text-align: center;
     margin-left: 4rem;
+
   }
 
   article .inputs__icon {
@@ -522,4 +523,14 @@ i:hover {
   i {
     font-size: 30px;
   }
+
+footer {
+  width:50vh;
+}
+
+.naranjita_abajo{
+width:50vh;
+
+}
+
 }
